@@ -1,0 +1,8 @@
+README
+setup.py
+indeed/__init__.py
+indeed/indeed.py
+python_indeed.egg-info/PKG-INFO
+python_indeed.egg-info/SOURCES.txt
+python_indeed.egg-info/dependency_links.txt
+python_indeed.egg-info/top_level.txt
