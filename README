@@ -1,0 +1,15 @@
+Simple wrapper for indeed api.
+
+go to indeed.com - register for api publisher token
+
+example
+
+from indeed import IndeedApi
+
+token = 'your token'
+api = IndeedApi(token)
+
+json_results = api.search('job keywords')
+
+print json_results
+
