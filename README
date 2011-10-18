@@ -13,3 +13,7 @@ json_results = api.search('job keywords')
 
 print json_results
 
+json_details = api.job_details([json_results['results'][0]['jobkey']])
+
+print json_details
+

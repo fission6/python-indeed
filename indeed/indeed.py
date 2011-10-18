@@ -34,8 +34,9 @@ class IndeedApi(object):
         
         action = 'apigetjobs'
         query_params = {
-            'q' : query,
+            'jobkeys' : ','.join(job_keys),
             'format' : 'json',
+            'v' : '2',
             'publisher' : self.publisher_id
         }
         
