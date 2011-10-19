@@ -1,6 +1,7 @@
 import urllib2
 import json
 from urllib import urlencode
+import types
 
 
 class IndeedApi(object):
