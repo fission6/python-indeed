@@ -11,12 +11,13 @@ class IndeedApi(object):
         self.publisher_id = publisher_id
         self.base_url = 'http://api.indeed.com/ads/'
 
-    def search(self, query=None, location='US'):
-        
+    def search(self, query=None, location='US', country_code='us'):
+
         action = 'apisearch'
         query_params = {
             'q' : query,
             'l' : location,
+            'co': country_code,
             'format' : 'json',
             'v' : '2',
             'publisher' : self.publisher_id
